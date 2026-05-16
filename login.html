@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login-page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="box">
+        <div class="page">
+            <div id="logo"><i class="fa-solid fa-arrow-right-to-bracket" style="color: rgb(0, 0, 0);"></i>login</div>
+            <div  id="logo" style=" opacity: 0.5;"><i class="fa-solid fa-user-plus" style="color: rgb(0, 0, 0);"></i>signup</div>
+        </div><br>
+        <div class="form">
+            <form action="#">
+                <label for="email">
+                Email address <br>
+                <input id="email" type="text" placeholder="Enter your Email address">
+                </label>
+                <br><br>
+                <div id="pass-box">
+                <label for="pass">
+                    <div>password  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;  forget password?</div>
+                    <div></div>
+                    <input id="pass" type="password" placeholder="enter your password">
+                </label>
+                </div>
+                <br> <br><br><button id="logbtn"><b>Login</b></button>
+                <hr>
+                <div class="link-box">
+                    <button class="btn"><i class="fa-brands fa-google" style="color: rgb(0, 0, 0);"></i>Continue with Google</button>
+                    <button class="btn"><i class="fa-brands fa-apple" style="color: rgb(0, 0, 0);"></i>Continue with apple</button>
+                    <button class="btn"><i class="fa-solid fa-hand-holding-dollar" style="color: rgb(0, 0, 0);"></i>continue with binace</button>
+                    <button class="btn"><i class="fa-solid fa-wallet" style="color: rgb(0, 0, 0);"></i>continue with wallet</button>
+                    
+                </div>
+                <br><br><hr>
+                <div class="footer">
+                <p>dont have aount yet? <a href="signup.html">Signup</a></p>
+                <p style="display: none;" id="log_page">login</p>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>>
